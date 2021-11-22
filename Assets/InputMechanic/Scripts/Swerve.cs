@@ -135,7 +135,7 @@ public class Swerve : MonoBehaviour
 
     private void FixedUpdate()
     {
-        return;
+        //return;
         // If my finger is not on the screen 
         if (isSwerveStoped)
         {
@@ -158,7 +158,7 @@ public class Swerve : MonoBehaviour
 
     private void FingerDragAction()
     {
-        return;
+        //return;
         #region DragDefaults
 
         lastMousePosition = Input.mousePosition;
@@ -177,9 +177,9 @@ public class Swerve : MonoBehaviour
         #endregion
 
 
-        if (deltaMousePosition.x < 0 && isStunned)
+        if (deltaMousePosition.x < 0 /*&& isStunned*/)
         {
-            return;
+            //return;
         }
 
         movementVector = deltaMousePosition * settings.sensitivity /*(+ sensitivitySlider.value)*/;
@@ -416,7 +416,7 @@ public class Swerve : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        return;
+        //return;
         if (collision.transform.tag.Contains("Player"))
         {
             if (!isStunned)
