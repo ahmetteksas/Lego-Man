@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RI_LavaMtl
+  m_Shader: {fileID: -6465566751694194690, guid: 094b754333492c444b148dc6be09f8fc,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_89AE56D1:
+        m_Texture: {fileID: 2800000, guid: 3e50f728e9d8ef7479c21f936d724cac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_BFF4CB73:
+        m_Texture: {fileID: 2800000, guid: 7bf85766a92cd1246894f1b95343d247, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_4D405E5E: 0.02
+    - Vector1_56884BB0: 1.23
+    - Vector1_5BF60633: 20
+    - Vector1_5D61DF3B: 5
+    - Vector1_661F617B: 0.05
+    - Vector1_7FADD829: 0.05
+    - Vector1_8EB4EA95: 0.07
+    - Vector1_DF21018: 3.9
+    - Vector1_EFA0CBE5: 0.2
+    - Vector1_FD6DF9AB: 1
+    m_Colors:
+    - Color_86BB7821: {r: 135.58704, g: 34.784107, b: 0, a: 0}
+    - Color_DF3F2223: {r: 766.9961, g: 108.42353, b: 0, a: 0}
+    - Vector2_CC139936: {r: 15, g: 5, b: 0, a: 0}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0607fb2fc0691714a997c7fc68d964e6, type: 3}
+  m_Name: MagnetInventoryP1
+  m_EditorClassIdentifier: 
+  visuals:
+  - {fileID: 11400000, guid: 930967b321865314793f2ef33c77d910, type: 2}
+  health:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 0}
+  score:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 0}
+  coin:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 0}
+  token:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 0}
+  bullet:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: c52220ea30ff050469466f17dd029c00, type: 2}
