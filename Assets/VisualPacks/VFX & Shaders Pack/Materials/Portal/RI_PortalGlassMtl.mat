@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RI_PortalGlassMtl
+  m_Shader: {fileID: -6465566751694194690, guid: 2e2f060798b010e4d9f1425706998419,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_C49D92BF:
+        m_Texture: {fileID: 2800000, guid: 5dcd100b924c90447b9eca05625a496d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_61DF4CE9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 5dcd100b924c90447b9eca05625a496d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_62E663AA_Out_0:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_6E8B4B6C_Out_0:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_6502F519: 1.24
+    - Vector1_713597F8: 20.16
+    - Vector1_724FBD61: 0.8
+    - Vector1_826DE7D9: 3.1
+    - Vector1_830E2447: 3.57
+    - Vector1_CE821778: 1.3
+    - Vector1_FA91455: 11.54
+    - Vector1_FF9E561D: 8
+    m_Colors:
+    - Color_C3187BB8: {r: 0, g: 1.320362, b: 5.216958, a: 0}

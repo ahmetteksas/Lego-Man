@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RI_HologramMtl
+  m_Shader: {fileID: -6465566751694194690, guid: 8e8c5d7f6f7ef514eaeb6ef48937b7e7,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_B3C3ABDF:
+        m_Texture: {fileID: 2800000, guid: 9b27d4b30d898f44e9abdd3820f6b9ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_85738D19: 0.7
+    - Vector1_BC76E5E3: -0.57
+    m_Colors:
+    - Color_7F0E0D58: {r: 0, g: 20.865906, b: 3.6051042, a: 0.01960784}
+    - Color_90F2DB86: {r: 0, g: 1.8190669, b: 2.828427, a: 0}
+    - Vector2_767C308E: {r: 4.32, g: 35, b: 0, a: 0}

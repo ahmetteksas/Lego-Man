@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0607fb2fc0691714a997c7fc68d964e6, type: 3}
+  m_Name: Inventory0
+  m_EditorClassIdentifier: 
+  visuals:
+  - {fileID: 11400000, guid: 20302d7c4c15bac4fbb7081cbfb0e03d, type: 2}
+  health:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 9a117c3913c5a4a479f8ae42eae28e04, type: 2}
+  score:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 968cfe642745db849af16ec9b0b76945, type: 2}
+  coin:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: a01c97354bc0f244c9dcb4a2cb3fa441, type: 2}
+  token:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 538f6b5a57f049e4f818906867925116, type: 2}
+  bullet:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: eb13d72cd1fe7d640be38cfa4712ec56, type: 2}

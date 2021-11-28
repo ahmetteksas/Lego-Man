@@ -4,13 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - PlayerRight
-  - PlayerLeft
+  - Wall
   - Obstacle
   - Collectable
-  - CollectableRight
-  - CollectableLeft
-  - Arrow
+  - PlayerLeft
+  - PlayerRight
+  - Gate
+  - Ground
+  - Person
+  - Player1Base
+  - Player2Base
+  - Person1
+  - Person2
   layers:
   - Default
   - TransparentFX
@@ -18,8 +23,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Post-Processing
+  - Wall
   - 
   - 
   - 

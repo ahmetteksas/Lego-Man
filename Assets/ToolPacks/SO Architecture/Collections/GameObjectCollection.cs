@@ -8,6 +8,5 @@ namespace ScriptableObjectArchitecture
         order = SOArchitecture_Utility.ASSET_MENU_ORDER_COLLECTIONS + 0)]
     public class GameObjectCollection : Collection<GameObject>
     {
-        public Transform transform;
-    }
+    } 
 }

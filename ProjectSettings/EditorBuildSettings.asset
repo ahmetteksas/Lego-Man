@@ -4,5 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Oxo/Scenes/RunnerScene.unity
+    guid: dda33bc179971fd42b2a46ee52883bc8
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 2e8853207f9bb6549b413611f44be2a8, type: 2}
