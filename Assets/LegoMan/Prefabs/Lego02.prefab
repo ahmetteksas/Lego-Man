@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 970921115570733686}
   - component: {fileID: -2518217460863998993}
   - component: {fileID: -6040917458067838946}
+  - component: {fileID: 1992973337816354837}
   m_Layer: 0
   m_Name: Lego02
   m_TagString: Untagged
@@ -96,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.82, y: 0.42, z: 0.3}
-  m_Center: {x: -0.08, y: 0.25, z: -0.03}
+  m_Size: {x: 0.60567737, y: 0.41999996, z: 0.3}
+  m_Center: {x: -0.8628386, y: 0.25, z: -0.030000001}
 --- !u!114 &-2518217460863998993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +165,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _debugValue: 0
+--- !u!65 &1992973337816354837
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660996893037901342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.599087, y: 0.41999996, z: 0.3}
+  m_Center: {x: 0.85954344, y: 0.25, z: -0.030000001}
 --- !u!1 &660996893414969622
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +541,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 660996894852751427}
+  - component: {fileID: 1140030130263215958}
+  - component: {fileID: 1366185384599399999}
+  - component: {fileID: 7651597018196357557}
   m_Layer: 0
   m_Name: Lego01
   m_TagString: Untagged
@@ -553,6 +570,53 @@ Transform:
   m_Father: {fileID: 660996893037901341}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1140030130263215958
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660996894852751428}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1366185384599399999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660996894852751428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.82, y: 0.23549348, z: 0.33}
+  m_Center: {x: 0, y: 0.112039775, z: 0}
+--- !u!114 &7651597018196357557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660996894852751428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c618e0741dba0cf4fa57eb5cbbf98462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: dd508c678a760584aa31b87a76cb31fb, type: 2}
+  targetFloatList:
+  - {fileID: 11400000, guid: 00040033833585f4b940c1e6c8d5d2e1, type: 2}
+  targetCollectionList:
+  - {fileID: 11400000, guid: 20302d7c4c15bac4fbb7081cbfb0e03d, type: 2}
+  shoot: {fileID: 11400000, guid: 0bcaaeb1ed0df7b4aa1b23db7005cbd2, type: 2}
 --- !u!1 &660996894903475124
 GameObject:
   m_ObjectHideFlags: 0

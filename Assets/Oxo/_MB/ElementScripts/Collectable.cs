@@ -43,6 +43,13 @@ public class Collectable : MonoBehaviour
         }
         else
         {
+            Obstacle obs = GetComponentInChildren<Obstacle>();
+
+            if (obs.TryGetComponent(out BoxCollider collider))
+            {
+                collider.isTrigger = true;
+            }
+            //Destroy(GetComponentInChildren<Obstacle>());
             //if (collectable.TryGetComponent(out CanFollow canFollow))
             //{
             //    if (collectableCollection.Count == 0)
